@@ -27,22 +27,32 @@ Mail: chris01@163.com
 
 =======================================================================================
 1、注册帐号【POST】
+
 http://localhost:8080/regOrg
+
 {
   "orgName": "test",
   "orgPwd": "test1234"
 }
 
+
+
 2、绑定帐号可访问的URL地址【POST】
+
 http://localhost:8080/bindOrgAuth
+
 {
   "authUrl": [  "/add1","/add2","/del"],
   "orgCode": 10000
 }
 
+
 3、创建token【POST】
+
 http://localhost:8080/createToken
+
 {
   "orgCode": 10000,
   "serctKey":"843f8a0567a3b74ba3e49bfa2eaf73d4"
 }
+
