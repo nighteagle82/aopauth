@@ -29,7 +29,7 @@ http://localhost:8080/regOrg
   "orgPwd": "test1234"
 }
 
-2、绑写帐号可访问的URL地址【POST】
+2、绑定帐号可访问的URL地址【POST】
 http://localhost:8080/bindOrgAuth
 {
   "authUrl": [  "/add1","/add2","/del"],
