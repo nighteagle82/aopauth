@@ -21,7 +21,7 @@ spring:
     #在这里配置Redis数据源
   redis:
     database: 0
-    host: dataserver
+    host: localhost
     password: 123456
     port: 6379
     pool:
