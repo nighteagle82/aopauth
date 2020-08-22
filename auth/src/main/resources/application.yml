@@ -33,3 +33,9 @@ spring:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+#jwt:
+#  signKey: 123456
+#  alg: HMAC256
+#  typ: JWT

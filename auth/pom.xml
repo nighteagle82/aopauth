@@ -128,6 +128,11 @@
             <version>1.9.1</version>
         </dependency>
 
+        <!-- java-jwt -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+        </dependency>
 
     </dependencies>
 
